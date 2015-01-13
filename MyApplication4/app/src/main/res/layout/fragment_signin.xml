@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@android:color/background_dark">
+
+    <FrameLayout
+        android:id="@+id/BigOne"
+        style="@style/Main_Layout_Style">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="104dp"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Password"
+                android:id="@+id/PasswortLabelId"
+                android:layout_marginLeft="25dp" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/passWordText"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:background="@android:color/white"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_weight="0.55"
+                android:layout_marginBottom="-15dp"
+                android:layout_marginRight="@dimen/activity_horizontal_margin" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="165dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginTop="50dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SignInButton"
+                android:id="@+id/SignInButton"
+                android:layout_gravity="center_horizontal"
+                style="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:layout_marginLeft="-50dp"
+                android:layout_marginTop="30dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/LogInButton"
+                android:id="@+id/LogInButtonInSignInFragment"
+                android:layout_gravity="right"
+                style="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-48dp"
+                android:layout_marginRight="50dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exit"
+                android:id="@+id/ExitButton"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                style="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:layout_marginLeft="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="109dp"
+            android:layout_gravity="right|top"
+            android:weightSum="1"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/UserNameLAbel"
+                android:id="@+id/UsernameLabel"
+                android:layout_marginLeft="25dp" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/usernameText"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:background="@android:drawable/edit_text"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:inputType="text"
+                android:layout_marginRight="@dimen/activity_horizontal_margin" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+</RelativeLayout>

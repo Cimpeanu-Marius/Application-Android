@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="wrgwrgbwb">MUie</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="UsernameLabel">Username</string>
+    <string name="UserNameLabel">User name</string>
+    <string name="UserNameLAbel">User name</string>
+    <string name="SignInButton">Sign In</string>
+    <string name="LogInButton">Log In</string>
+    <string name="CancelButton">Cancel</string>
+    <string name="UserNameLabelLogIn">User name</string>
+    <string name="PasswordLabelLogIn">Password</string>
+    <string name="RetypePasswordLogIn">Retype Password</string>
+    <string name="CancelLogInButton">Cancel</string>
+    <string name="LogInFormulairButton">Log In</string>
+    <string name="resource">Save location coordinates</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
